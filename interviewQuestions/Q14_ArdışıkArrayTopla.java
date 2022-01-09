@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 import java.util.List;
 
-public class Q14_1_ArdýþýkArrayTopla {
+public class Q14_ArdýþýkArrayTopla {
 
 	public static void main(String[] args) {
 		
@@ -22,7 +22,10 @@ public class Q14_1_ArdýþýkArrayTopla {
 		String arr[]={ "3","5", "1", "2", "7", "9", "2", "3", "5", "7" };
 
 		ardýþýkTopla(arr);
+	
 	}
+
+	
 
 	private static void ardýþýkTopla(String[] arr) {
 		List<String> list=new ArrayList<>();

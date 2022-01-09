@@ -2,7 +2,7 @@ package interviewQuestions;
 
 import java.util.Scanner;
 
-public class Q09_1_PrimeNumber {
+public class Q09_PrimeNumber {
 
 	public static void main(String[] args) {
 		/*

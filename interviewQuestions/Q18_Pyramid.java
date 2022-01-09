@@ -1,6 +1,6 @@
 package interviewQuestions;
 
-public class Q18_1_Pyramid {
+public class Q18_Pyramid {
 
 	public static void main(String[] args) {
 		/*
@@ -30,22 +30,6 @@ public class Q18_1_Pyramid {
 			}
 			System.out.println();
 		}
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		
 		
 		

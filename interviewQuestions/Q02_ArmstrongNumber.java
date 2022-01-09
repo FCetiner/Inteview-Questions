@@ -1,6 +1,6 @@
 package interviewQuestions;
 
-public class Q02_1_ArmstrongNumber {
+public class Q02_ArmstrongNumber {
 
 	public static void main(String[] args) {
 		/* 
@@ -27,6 +27,22 @@ public class Q02_1_ArmstrongNumber {
 		} else {
 			System.out.println("Sayý Armstrong sayý deðildir");
 		}
+		
+		Answer(num);
+	}
+
+	private static void Answer(int num) {
+		int rakam;
+        int toplam = 0;
+        int number = num;
+        for (; number > 0; number = number / 10) {
+            rakam = number % 10;
+            toplam = toplam + rakam * rakam * rakam;
+        }
+        if (toplam == num) {
+            System.out.println("This is armstrong number");
+        }
+		
 	}
 
 }

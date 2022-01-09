@@ -2,7 +2,7 @@ package interviewQuestions;
 
 import java.util.Scanner;
 
-public class Q15_1_YýldýzUcgen {
+public class Q15_YýldýzUcgen {
 
 	public static void main(String[] args) {
 		/*

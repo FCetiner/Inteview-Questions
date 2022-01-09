@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Q07_1_Fibonacci {
+public class Q07_Fibonacci {
 
 	public static void main(String[] args) {
 		/*

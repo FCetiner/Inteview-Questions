@@ -1,6 +1,6 @@
 package interviewQuestions;
 
-public class Q04_1_FindPairsInArray {
+public class Q04_FindPairsInArray {
 
 	public static void main(String[] args) {
 		/*
@@ -23,8 +23,9 @@ public class Q04_1_FindPairsInArray {
 		}
 		
 
-	
 		
 	}
+
+
 
 }

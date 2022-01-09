@@ -1,6 +1,6 @@
 package interviewQuestions;
 
-public class Q01_1_StringiTerstenYazdýrma {
+public class Q01_StringiTerstenYazdýrma {
 
 	public static void main(String[] args) {
 		/*
@@ -22,6 +22,24 @@ public class Q01_1_StringiTerstenYazdýrma {
 			isimYeni+=tersHarfler[i];
 		}
 	System.out.println(isimYeni);
+	
+	answer(str);
+	}
+
+	private static void answer(String str) {
+		 String reString = "";
+
+	        for (int i = 0; i < str.length(); i++) {
+	            reString += str.charAt(str.length() - i - 1);
+	        }
+
+	        System.out.println(reString);
+
+	        // Reverse String with string builder
+
+	        StringBuilder stringBuilder = new StringBuilder("Basari GAYRETE asiktir");
+	        System.out.println(stringBuilder.reverse());
+		
 	}
 
 }

@@ -2,7 +2,7 @@ package interviewQuestions;
 
 import java.util.Scanner;
 
-public class Q17_1_ReverseHalfPyramid {
+public class Q17_ReverseHalfPyramid {
 
 	public static void main(String[] args) {
 		/*
@@ -21,7 +21,7 @@ public class Q17_1_ReverseHalfPyramid {
 		  int num=scan.nextInt();
 		
 		  
-		  for (int i = 1; i <= num; i++) {
+		  for (int i = 0; i <= num; i++) {
 			for (int j = 1; j <= num-i; j++) {
 				System.out.print("* ");
 			}

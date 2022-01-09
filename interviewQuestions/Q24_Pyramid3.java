@@ -1,6 +1,6 @@
 package interviewQuestions;
 
-public class Q24_1_Pyramid3 {
+public class Q24_Pyramid3 {
 
 	public static void main(String[] args) {
 		/*

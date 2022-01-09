@@ -2,7 +2,7 @@ package interviewQuestions;
 
 import java.util.Arrays;
 
-public class Q23_1_PutAllZerosToEnd {
+public class Q23_PutAllZerosToEnd {
 
 	public static void main(String[] args) {
 		 /*

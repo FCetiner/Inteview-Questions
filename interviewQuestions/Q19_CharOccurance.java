@@ -23,7 +23,11 @@ public class Q19_CharOccurance {
 		int count=0;
 		for (int i = 0; i < str.length(); i++) {
 			count=0;
-			for (int j = 0; j < str.length(); j++) {}
+			for (int j = 0; j < str.length(); j++) {
+				if (str.charAt(i)==str.charAt(j)) {
+					count++;
+				}
+			}
 			if (count!=0 && !kova.contains(str.substring(i, i+1))) {
 				kova+=str.charAt(i);
 				System.out.print(str.charAt(i)+""+count);

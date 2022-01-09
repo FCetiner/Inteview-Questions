@@ -2,7 +2,7 @@ package interviewQuestions;
 
 import java.util.Scanner;
 
-public class Q12_1_Palindrome {
+public class Q12_Palindrome {
 
 	public static void main(String[] args) {
 		/*
@@ -19,8 +19,29 @@ public class Q12_1_Palindrome {
 		Scanner scan=new Scanner(System.in);
 		String str=scan.nextLine();
 		System.out.println(isPalindrome(str));
-		
+		answer(str);
 		scan.close();
+	}
+
+	private static void answer(String str) {
+		   String tersStr = "";
+			
+	        for (int i = str.length() - 1; i >= 0; i--) {
+	
+	            tersStr += str.charAt(i);
+	        }
+	
+	        System.out.println(tersStr);
+	
+	        if (tersStr.equalsIgnoreCase(str)) {
+	
+	            System.out.println("Girdiginiz metin PALINDROME'dur");
+	
+	        } else {
+	
+	            System.out.println("Girdiginiz metin PALINDROME degildir");
+	        }
+		
 	}
 
 	private static boolean isPalindrome(String str) {

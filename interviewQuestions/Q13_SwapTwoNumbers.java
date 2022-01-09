@@ -1,6 +1,6 @@
 package interviewQuestions;
 
-public class Q13_1_SwapTwoNumbers {
+public class Q13_SwapTwoNumbers {
 
 	public static void main(String[] args) {
 

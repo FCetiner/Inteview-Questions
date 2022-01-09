@@ -2,7 +2,7 @@ package interviewQuestions;
 
 import java.util.Scanner;
 
-public class Q16_1_HalfPyramid {
+public class Q16_HalfPyramidWithNumbers {
 
 	public static void main(String[] args) {
 		/*

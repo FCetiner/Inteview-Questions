@@ -1,8 +1,10 @@
 package interviewQuestions;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
-public class Q03_1_CountWordsInStr {
+public class Q03_CountWordsInStr {
 
 	public static void main(String[] args) {
 		/*
@@ -31,5 +33,24 @@ public class Q03_1_CountWordsInStr {
 		}
 		String arr2[] = str.split("#");
 		System.out.println(Arrays.toString(arr2));
+		
+		answer(cumle);
+	}
+
+	private static void answer(String cumle) {
+		 String [] words = cumle.split(" ");
+	        
+	        Map<String,Integer> numOfWords = new HashMap<>();
+
+	        for(String w: words) {
+	            if(numOfWords.containsKey(w)) {
+	                numOfWords.put(w, numOfWords.get(w)+1);
+	            }else {
+	                numOfWords.put(w, 1);
+	            }
+//			System.out.println(numOfWords);
+	        }
+	        System.out.println(numOfWords);
+		
 	}
 }
